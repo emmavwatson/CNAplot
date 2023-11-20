@@ -3,13 +3,11 @@
 #requires subcloneCorrection_after_filterSeg2
 #requires transCoord
 #requires filterSegments
-
+#requires df.chroms.txt
 
 #chromColors <- c("brown1","cyan4", "darkgoldenrod2", "darkorange1","cadetblue2","brown1","cyan4","darkgoldenrod2","darkorange1","cadetblue2","brown1" ,"cyan4","darkgoldenrod2","darkorange1","cadetblue2","brown1","cyan4" ,"darkgoldenrod2","darkorange1","cadetblue2","brown1","cyan4","darkgoldenrod2")
 
 #plot_all_bars_func_fuzzy_vwr_wfilterSeg2(returned_062119_plate2_dips_filterSeg4_fwa, 2, chromColors, 0, 4, files_062119_plate2_dips_filterSeg, 10000000, 0.7, "becool", 0.96, 3.05, 0.05)
-
-
 
 
 plot_all_bars_func_fuzzy_vwr_wfilterSeg2 <- function(x,w,u,t,m,files,msw,maxvar,id,low,high,maxdif) {
